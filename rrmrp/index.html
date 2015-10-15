@@ -186,9 +186,9 @@
                 }
                 if (parsed) {
                     filter(sector_chart, 1);
-					filter(objective_chart, 2);
-					filter(output_chart, 3);
-                    filter(category_chart, 4);
+				//	filter(objective_chart, 2);
+				//	filter(output_chart, 3);
+                //    filter(category_chart, 4);
 					filter(area_chart, 5);
 					filter(map2_chart, 6);
                     filter(org_chart, 7);
@@ -233,38 +233,7 @@
                 .colorAccessor(function(d, i){return i%8;})
                 .on("filtered", getFiltersValues);
 				
-			objective_chart.width(400).height(130)
-                .dimension(cf.objective)
-                .group(objectiveByTotal)
-                .elasticX(true)
-                .on("filtered", getFiltersValues)
-                .data(function(group) {
-                    return group.top(3);
-                })
-                .colors(['#3182bd'])
-                .colorDomain([0,0])
-                .colorAccessor(function(d, i){return 1;})
-                .xAxis().ticks(4).tickFormat(d3.format("s"));				
 			
-			output_chart.width(400).height(130)
-                .dimension(cf.output)
-                .group(outputByTotal)
-                .elasticX(true)
-                .on("filtered", getFiltersValues)
-                .data(function(group) {
-                    return group.top(3);
-                })
-                .colors(['#3182bd'])
-                .colorDomain([0,0])
-                .colorAccessor(function(d, i){return 1;})
-                .xAxis().ticks(4).tickFormat(d3.format("s"));
-
-            category_chart.width(400).height(130)
-                .dimension(cf.category)
-                .group(categoryByTotal)
-                .elasticX(true)
-                .on("filtered", getFiltersValues)
-                .xAxis().ticks(4).tickFormat(d3.format("s"));
 			
 			area_chart.width(400).height(230)
                 .dimension(cf.area)
