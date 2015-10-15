@@ -92,9 +92,9 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
-				Produced by Information Management Unit, UNHCR, Lebanon. For more information please contact Aung Thu Win, <a href="mailto:wina@unhcr.org">WINA@unhcr.org</a>.
+				Produced by the RRC Yemen, UNHCR. For more information please contact James Leon-Dufour, <a href="mailto:leondufo@unhcr.org">leondufo@unhcr.org</a>.
 				<br>
-				UNHCR thanks all partners for their data and cooperation.
+			
 			</div>
 		</div>
 	</div>
@@ -229,11 +229,11 @@
 						'#215968', /* SCL*/
                         '#ffc000', /* Shelter */
 						'#7030a0', /* WASH */
-						'#7039a0', /* WASH */
+						'#7099a0', /* WASH */
                         ])
                 .colorDomain([0,7])
                 .renderLabel(true)
-                .colorAccessor(function(d, i){return i%8;})
+                .colorAccessor(function(d, i){return i%9;})
                 .on("filtered", getFiltersValues);
 				
 			
@@ -290,7 +290,7 @@
 						return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
 					})
-					.projection(d3.geo.mercator().center([49,12]).scale(1200))
+					.projection(d3.geo.mercator().center([49,12]).scale(1500))
 					.title(function (d) {
 						return "Geo-Filter: " + d.key;
 					})
@@ -329,18 +329,7 @@
         });
     </script>	
     <script src="js/bootstrap.js"></script>
-    <!-- Piwik-->
-    <script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://data.unhcr.org/piwik/" : "http://data.unhcr.org/piwik/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script><script type="text/javascript">
-    try {
-    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 21);
-    piwikTracker.trackPageView();
-    piwikTracker.enableLinkTracking();
-    } catch( err ) {}
-    </script><noscript><p><img src="http://data.unhcr.org/piwik/piwik.php?idsite=21" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Code -->
+   
 	
   </body>
   </html>
