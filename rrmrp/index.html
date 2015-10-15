@@ -290,7 +290,7 @@
 					//	 return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
 					})
-					.projection(d3.geo.mercator().center([48,12]).scale(1000))
+					.projection(d3.geo.mercator().center([42,12]).scale(1000))
 					.title(function (d) {
 						return "Geo-Filter: " + d.key;
 					})
@@ -309,10 +309,10 @@
 					
                 });
 			
-			$('#loading').hide();
-			$('#dashboard').show();
-			map2_chart.filterAll();
-			dc.redrawAll();
+		//	$('#loading').hide();
+		//	$('#dashboard').show();
+		//	map2_chart.filterAll();
+		//	dc.redrawAll();
             			
 			dc.renderAll();
 
