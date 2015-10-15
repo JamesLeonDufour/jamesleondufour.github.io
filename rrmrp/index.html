@@ -270,7 +270,7 @@
               			
 						
 						d3.json("geojson/yem.geojson", function (regionsJSON) {
-                 map2_chart.width(400).height(200)
+                 map2_chart.width(800).height(400)
 					.dimension(cf.rcode)
 					.group(rcodeByTotal)
 					.colors(['#AAAAAA', "rgb(49,163,84)"]) //'#CB181D'
@@ -287,7 +287,7 @@
 						return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
 					})
-					.projection(d3.geo.mercator().center([42,29]).scale(10))
+					.projection(d3.geo.mercator().center([42,29]).scale(1200))
 					.title(function (d) {
 						return "Geo-Filter: " + d.key;
 					})
