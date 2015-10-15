@@ -251,7 +251,7 @@
                 .colorAccessor(function(d, i){return 1;})
                 .xAxis().ticks(4).tickFormat(d3.format("s"));
 
-            org_chart.width(450).height(650)
+            org_chart.width(450).height(550)
                 .dimension(cf.partner)
                 .group(partnerByTotal)
                 .elasticX(true)
@@ -290,7 +290,7 @@
 						// return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
 					})
-					.projection(d3.geo.mercator().center([50,12]).scale(500))
+					.projection(d3.geo.mercator().center([50,12]).scale(1000))
 					.title(function (d) {
 						return "Geo-Filter: " + d.key;
 					})
