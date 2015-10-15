@@ -1,221 +1,221 @@
-Sector;Objective;Output;Partner;Area;RegionCODE;Category;Total
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;ANERA;Akkar;1;A. Life-saving;10000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;ANERA;Akkar;1;B. Preventing Deterioration;140000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;ANERA;Beirut and Mt Lebanon;2;A. Life-saving;10000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;ANERA;Beirut and Mt Lebanon;2;B. Preventing Deterioration;140000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;CCP JAPAN;Countrywide;6;B. Preventing Deterioration;160000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;FPSC;Akkar;1;B. Preventing Deterioration;100000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;FPSC;Bekaa;3;B. Preventing Deterioration;100000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;HWA;Beirut and Mt Lebanon;2;A. Life-saving;100000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;HWA;South;4;A. Life-saving;100000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IQRAA;Akkar;1;B. Preventing Deterioration;380000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IQRAA;Beirut and Mt Lebanon;2;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IQRAA;Bekaa;3;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IQRAA;Bekaa;3;B. Preventing Deterioration;380000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IQRAA;South;4;B. Preventing Deterioration;380000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IRC;Akkar;1;B. Preventing Deterioration;1125713
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;IRC;Bekaa;3;B. Preventing Deterioration;1125713
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;MoSA;Countrywide;6;B. Preventing Deterioration;6300000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;NRC;Akkar;1;B. Preventing Deterioration;377000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;NRC;Beirut and Mt Lebanon;2;B. Preventing Deterioration;100000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;NRC;Bekaa;3;B. Preventing Deterioration;845000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;NRC;South;4;B. Preventing Deterioration;150000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;NRC;Tripoli+5;5;B. Preventing Deterioration;300000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;RI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;654274
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;RI;Tripoli+5;5;B. Preventing Deterioration;327137
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;SCI;Akkar;1;B. Preventing Deterioration;1950000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;SCI;Beirut and Mt Lebanon;2;A. Life-saving;50000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;SCI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;155000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;SCI;Bekaa;3;B. Preventing Deterioration;2590000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;SCI;South;4;B. Preventing Deterioration;1967000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;SCI;Tripoli+5;5;B. Preventing Deterioration;10000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNESCO;Bekaa;3;A. Life-saving;600000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNESCO;Countrywide;6;A. Life-saving;445000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNESCO;Countrywide;6;A. Life-saving;600000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Akkar;1;A. Life-saving;112500
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Akkar;1;B. Preventing Deterioration;4674000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Akkar;1;B. Preventing Deterioration;475000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Beirut and Mt Lebanon;2;A. Life-saving;167250
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;2375000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;9304000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Bekaa;3;A. Life-saving;287500
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Bekaa;3;B. Preventing Deterioration;8588600
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Bekaa;3;B. Preventing Deterioration;2375000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;South;4;A. Life-saving;116180
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;South;4;B. Preventing Deterioration;522500
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;South;4;B. Preventing Deterioration;5954000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Tripoli+5;5;A. Life-saving;162145
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Tripoli+5;5;B. Preventing Deterioration;5664840
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNHCR;Tripoli+5;5;B. Preventing Deterioration;1377500
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNICEF;Akkar;1;B. Preventing Deterioration;11140416
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNICEF;Beirut and Mt Lebanon;2;B. Preventing Deterioration;17824665.6
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNICEF;Bekaa;3;B. Preventing Deterioration;20795443.2
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNICEF;South;4;B. Preventing Deterioration;9655027.2
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNICEF;Tripoli+5;5;B. Preventing Deterioration;14853888
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA;Countrywide;6;B. Preventing Deterioration;654416
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA;Countrywide;6;B. Preventing Deterioration;412578
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA;Countrywide;6;B. Preventing Deterioration;168283
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA;Countrywide;6;B. Preventing Deterioration;4253703
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA-UNICEF ;Countrywide;6;B. Preventing Deterioration;240727
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA-UNICEF ;Countrywide;6;B. Preventing Deterioration;12792
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;UNRWA-UNICEF ;Countrywide;6;B. Preventing Deterioration;327208
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WCH;Beirut and Mt Lebanon;2;A. Life-saving;9000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WCH;South;4;B. Preventing Deterioration;45000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WVI;Akkar;1;A. Life-saving;62500
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WVI;Bekaa;3;A. Life-saving;325000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WVI;Bekaa;3;A. Life-saving;125000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WVI;South;4;A. Life-saving;300000
-Education;EDU -1. Right to education;EDU -1.1 Formal and informal education;WVI;South;4;A. Life-saving;90000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;Akkar;1;B. Preventing Deterioration;8400
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;Akkar;1;B. Preventing Deterioration;250000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;Beirut and Mt Lebanon;2;B. Preventing Deterioration;9600
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;Bekaa;3;B. Preventing Deterioration;3600
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;South;4;B. Preventing Deterioration;30000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;Tripoli+5;5;B. Preventing Deterioration;175513
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;ANERA;Tripoli+5;5;B. Preventing Deterioration;8400
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;HWA;Beirut and Mt Lebanon;2;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;HWA;South;4;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;IOCC;Countrywide;6;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;NRC;Akkar;1;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;NRC;Beirut and Mt Lebanon;2;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;NRC;Bekaa;3;B. Preventing Deterioration;75000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;NRC;Tripoli+5;5;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;RI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;23020
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;RI;Tripoli+5;5;B. Preventing Deterioration;11510
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;SCI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;12500
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;SCI;South;4;B. Preventing Deterioration;62005
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;SCI;Tripoli+5;5;B. Preventing Deterioration;30400
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;UNICEF;Countrywide;6;B. Preventing Deterioration;10286244
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;UNRWA;Countrywide;6;B. Preventing Deterioration;130883
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;UNRWA;Countrywide;6;B. Preventing Deterioration;485335
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;UNRWA;Countrywide;6;B. Preventing Deterioration;439906
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;UNRWA-UNICEF ;Countrywide;6;B. Preventing Deterioration;214510
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;UNRWA-UNICEF ;Countrywide;6;B. Preventing Deterioration;120000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;WVI;Bekaa;3;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.2 Safe and protective envirnonment;WVI;South;4;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;Akkar;1;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;Akkar;1;B. Preventing Deterioration;3250
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;Akkar;1;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;Beirut and Mt Lebanon;2;B. Preventing Deterioration;57385
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;Bekaa;3;B. Preventing Deterioration;30680
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;South;4;B. Preventing Deterioration;61288
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;ANERA;Tripoli+5;5;B. Preventing Deterioration;3770
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;FPSC;Akkar;1;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;FPSC;Beirut and Mt Lebanon;2;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;FPSC;Bekaa;3;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;FPSC;South;4;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;HWA;Beirut and Mt Lebanon;2;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;HWA;South;4;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;IOCC;Countrywide;6;B. Preventing Deterioration;4000000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;IRC;Akkar;1;B. Preventing Deterioration;139119
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;IRC;Bekaa;3;B. Preventing Deterioration;139119
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;MEHE;Countrywide;6;B. Preventing Deterioration;23360000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;NRC;Akkar;1;B. Preventing Deterioration;7500
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;NRC;Beirut and Mt Lebanon;2;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;NRC;Bekaa;3;B. Preventing Deterioration;275000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;NRC;Tripoli+5;5;B. Preventing Deterioration;5000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;RI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;17550
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;RI;Tripoli+5;5;B. Preventing Deterioration;5850
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;SCI;Akkar;1;B. Preventing Deterioration;20000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;SCI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;25000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;SCI;Bekaa;3;B. Preventing Deterioration;517000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;SCI;South;4;B. Preventing Deterioration;287500
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;SCI;Tripoli+5;5;B. Preventing Deterioration;2300
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Akkar;1;B. Preventing Deterioration;225000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Akkar;1;B. Preventing Deterioration;33000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Akkar;1;B. Preventing Deterioration;167400
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Akkar;1;B. Preventing Deterioration;500000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Akkar;1;B. Preventing Deterioration;92944
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;48000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;135841
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;500000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;375000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;257509
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Bekaa;3;B. Preventing Deterioration;500000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Bekaa;3;B. Preventing Deterioration;375000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Bekaa;3;B. Preventing Deterioration;250234
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Bekaa;3;B. Preventing Deterioration;297356
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Bekaa;3;B. Preventing Deterioration;44000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;South;4;B. Preventing Deterioration;33000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;South;4;B. Preventing Deterioration;500000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;South;4;B. Preventing Deterioration;300000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;South;4;B. Preventing Deterioration;185888
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;South;4;B. Preventing Deterioration;440528
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Tripoli+5;5;B. Preventing Deterioration;337004
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Tripoli+5;5;B. Preventing Deterioration;142991
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Tripoli+5;5;B. Preventing Deterioration;225000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Tripoli+5;5;B. Preventing Deterioration;500000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNHCR;Tripoli+5;5;B. Preventing Deterioration;50000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNICEF;Countrywide;6;B. Preventing Deterioration;13351500
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNRWA;Bekaa;3;B. Preventing Deterioration;526150
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;UNRWA;Countrywide;6;B. Preventing Deterioration;654416
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;WVI;Bekaa;3;B. Preventing Deterioration;125000
-Education;EDU -1. Right to education;EDU -1.3 Learning space improved;WVI;Countrywide;6;B. Preventing Deterioration;1770000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;FPSC;Akkar;1;B. Preventing Deterioration;12500
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;FPSC;Bekaa;3;B. Preventing Deterioration;12500
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;Mercy Corps;Bekaa;3;B. Preventing Deterioration;750000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;Mercy Corps;South;4;B. Preventing Deterioration;750000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;NRC;Akkar;1;B. Preventing Deterioration;30000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;NRC;Beirut and Mt Lebanon;2;B. Preventing Deterioration;75000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;NRC;Bekaa;3;B. Preventing Deterioration;350000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;NRC;Tripoli+5;5;B. Preventing Deterioration;30000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;RET;Beirut and Mt Lebanon;2;B. Preventing Deterioration;168000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;RET;Tripoli+5;5;B. Preventing Deterioration;72000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;SCI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;12500
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;SCI;South;4;B. Preventing Deterioration;13000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNESCO;Countrywide;6;B. Preventing Deterioration;500000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNESCO;Countrywide;6;B. Preventing Deterioration;100000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNESCO;Countrywide;6;B. Preventing Deterioration;355000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNESCO;Countrywide;6;B. Preventing Deterioration;600000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNHCR;Akkar;1;B. Preventing Deterioration;54600
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNHCR;Beirut and Mt Lebanon;2;B. Preventing Deterioration;79800
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNHCR;Bekaa;3;B. Preventing Deterioration;147000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNHCR;South;4;B. Preventing Deterioration;54600
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNHCR;Tripoli+5;5;B. Preventing Deterioration;168000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNICEF;Akkar;1;B. Preventing Deterioration;1769850
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNICEF;Beirut and Mt Lebanon;2;B. Preventing Deterioration;2831760
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNICEF;Bekaa;3;B. Preventing Deterioration;3303720
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNICEF;South;4;B. Preventing Deterioration;1533870
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;UNICEF;Tripoli+5;5;B. Preventing Deterioration;2359800
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;WVI;Beirut and Mt Lebanon;2;B. Preventing Deterioration;200000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;WVI;Bekaa;3;B. Preventing Deterioration;200000
-Education;EDU -1. Right to education;EDU -1.4 Adolescents access to education;WVI;South;4;B. Preventing Deterioration;200000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;British Council;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;509974.29
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;British Council;Bekaa;3;C. Capacity Building/Resilience;254987.14
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;British Council;South;4;C. Capacity Building/Resilience;254987.14
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;British Council;Tripoli+5;5;C. Capacity Building/Resilience;254987.14
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;HWA;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;5000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;HWA;South;4;C. Capacity Building/Resilience;5000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;MEHE;Countrywide;6;C. Capacity Building/Resilience;2000000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;NRC;Akkar;1;C. Capacity Building/Resilience;5000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;NRC;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;55000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;NRC;Bekaa;3;C. Capacity Building/Resilience;55000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;NRC;Tripoli+5;5;C. Capacity Building/Resilience;5000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;RI;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;29962
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;RI;Tripoli+5;5;C. Capacity Building/Resilience;14981
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;SCI;Akkar;1;C. Capacity Building/Resilience;10000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;SCI;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;55900
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;SCI;Bekaa;3;C. Capacity Building/Resilience;10000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;SCI;South;4;C. Capacity Building/Resilience;57000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;SCI;Tripoli+5;5;C. Capacity Building/Resilience;23600
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNESCO;Countrywide;6;C. Capacity Building/Resilience;200000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNHCR;Akkar;1;C. Capacity Building/Resilience;16000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNHCR;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;16000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNHCR;Bekaa;3;C. Capacity Building/Resilience;16000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNHCR;South;4;C. Capacity Building/Resilience;12000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNHCR;Tripoli+5;5;C. Capacity Building/Resilience;12000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNICEF;Countrywide;6;C. Capacity Building/Resilience;3092580
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNRWA;Countrywide;6;C. Capacity Building/Resilience;509353
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;UNRWA-UNICEF ;Countrywide;6;C. Capacity Building/Resilience;6000
-Education;EDU -2. Systems strenghtened;EDU -2.1 School teachers;WVI;Countrywide;6;C. Capacity Building/Resilience;500000
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;MEHE;Countrywide;6;C. Capacity Building/Resilience;16762000
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;NRC;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;5000
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;UNESCO;Countrywide;6;C. Capacity Building/Resilience;300000
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;UNESCO;Countrywide;6;C. Capacity Building/Resilience;100000
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;UNHCR;Countrywide;6;C. Capacity Building/Resilience;657388
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;UNHCR;Countrywide;6;C. Capacity Building/Resilience;50000
-Education;EDU -2. Systems strenghtened;EDU -2.2 Institutional support to MEHE;UNICEF;Countrywide;6;C. Capacity Building/Resilience;1879200
-Education;EDU -2. Systems strenghtened;EDU -2.3 Coordination and leadership;IRC;Akkar;1;C. Capacity Building/Resilience;2919
-Education;EDU -2. Systems strenghtened;EDU -2.3 Coordination and leadership;IRC;Bekaa;3;C. Capacity Building/Resilience;2919
-Education;EDU -2. Systems strenghtened;EDU -2.3 Coordination and leadership;NRC;Countrywide;6;C. Capacity Building/Resilience;20000
-Education;EDU -2. Systems strenghtened;EDU -2.3 Coordination and leadership;SCI;Beirut and Mt Lebanon;2;C. Capacity Building/Resilience;85000
+Sector,Objective,Output,Partner,Area,RegionCODE,Category,Total
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,ANERA,Akkar,1,A. Life-saving,10000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,ANERA,Akkar,1,B. Preventing Deterioration,140000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,ANERA,Beirut and Mt Lebanon,2,A. Life-saving,10000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,ANERA,Beirut and Mt Lebanon,2,B. Preventing Deterioration,140000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,CCP JAPAN,Countrywide,6,B. Preventing Deterioration,160000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,FPSC,Akkar,1,B. Preventing Deterioration,100000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,FPSC,Bekaa,3,B. Preventing Deterioration,100000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,HWA,Beirut and Mt Lebanon,2,A. Life-saving,100000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,HWA,South,4,A. Life-saving,100000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IQRAA,Akkar,1,B. Preventing Deterioration,380000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IQRAA,Beirut and Mt Lebanon,2,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IQRAA,Bekaa,3,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IQRAA,Bekaa,3,B. Preventing Deterioration,380000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IQRAA,South,4,B. Preventing Deterioration,380000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IRC,Akkar,1,B. Preventing Deterioration,1125713
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,IRC,Bekaa,3,B. Preventing Deterioration,1125713
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,MoSA,Countrywide,6,B. Preventing Deterioration,6300000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,NRC,Akkar,1,B. Preventing Deterioration,377000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,NRC,Beirut and Mt Lebanon,2,B. Preventing Deterioration,100000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,NRC,Bekaa,3,B. Preventing Deterioration,845000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,NRC,South,4,B. Preventing Deterioration,150000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,NRC,Tripoli+5,5,B. Preventing Deterioration,300000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,RI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,654274
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,RI,Tripoli+5,5,B. Preventing Deterioration,327137
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,SCI,Akkar,1,B. Preventing Deterioration,1950000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,SCI,Beirut and Mt Lebanon,2,A. Life-saving,50000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,SCI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,155000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,SCI,Bekaa,3,B. Preventing Deterioration,2590000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,SCI,South,4,B. Preventing Deterioration,1967000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,SCI,Tripoli+5,5,B. Preventing Deterioration,10000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNESCO,Bekaa,3,A. Life-saving,600000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNESCO,Countrywide,6,A. Life-saving,445000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNESCO,Countrywide,6,A. Life-saving,600000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Akkar,1,A. Life-saving,112500
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Akkar,1,B. Preventing Deterioration,4674000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Akkar,1,B. Preventing Deterioration,475000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Beirut and Mt Lebanon,2,A. Life-saving,167250
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,2375000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,9304000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Bekaa,3,A. Life-saving,287500
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Bekaa,3,B. Preventing Deterioration,8588600
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Bekaa,3,B. Preventing Deterioration,2375000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,South,4,A. Life-saving,116180
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,South,4,B. Preventing Deterioration,522500
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,South,4,B. Preventing Deterioration,5954000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Tripoli+5,5,A. Life-saving,162145
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Tripoli+5,5,B. Preventing Deterioration,5664840
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNHCR,Tripoli+5,5,B. Preventing Deterioration,1377500
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNICEF,Akkar,1,B. Preventing Deterioration,11140416
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNICEF,Beirut and Mt Lebanon,2,B. Preventing Deterioration,17824665.6
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNICEF,Bekaa,3,B. Preventing Deterioration,20795443.2
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNICEF,South,4,B. Preventing Deterioration,9655027.2
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNICEF,Tripoli+5,5,B. Preventing Deterioration,14853888
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA,Countrywide,6,B. Preventing Deterioration,654416
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA,Countrywide,6,B. Preventing Deterioration,412578
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA,Countrywide,6,B. Preventing Deterioration,168283
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA,Countrywide,6,B. Preventing Deterioration,4253703
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA-UNICEF ,Countrywide,6,B. Preventing Deterioration,240727
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA-UNICEF ,Countrywide,6,B. Preventing Deterioration,12792
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,UNRWA-UNICEF ,Countrywide,6,B. Preventing Deterioration,327208
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WCH,Beirut and Mt Lebanon,2,A. Life-saving,9000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WCH,South,4,B. Preventing Deterioration,45000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WVI,Akkar,1,A. Life-saving,62500
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WVI,Bekaa,3,A. Life-saving,325000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WVI,Bekaa,3,A. Life-saving,125000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WVI,South,4,A. Life-saving,300000
+Education,EDU -1. Right to education,EDU -1.1 Formal and informal education,WVI,South,4,A. Life-saving,90000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,Akkar,1,B. Preventing Deterioration,8400
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,Akkar,1,B. Preventing Deterioration,250000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,Beirut and Mt Lebanon,2,B. Preventing Deterioration,9600
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,Bekaa,3,B. Preventing Deterioration,3600
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,South,4,B. Preventing Deterioration,30000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,Tripoli+5,5,B. Preventing Deterioration,175513
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,ANERA,Tripoli+5,5,B. Preventing Deterioration,8400
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,HWA,Beirut and Mt Lebanon,2,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,HWA,South,4,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,IOCC,Countrywide,6,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,NRC,Akkar,1,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,NRC,Beirut and Mt Lebanon,2,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,NRC,Bekaa,3,B. Preventing Deterioration,75000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,NRC,Tripoli+5,5,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,RI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,23020
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,RI,Tripoli+5,5,B. Preventing Deterioration,11510
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,SCI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,12500
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,SCI,South,4,B. Preventing Deterioration,62005
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,SCI,Tripoli+5,5,B. Preventing Deterioration,30400
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,UNICEF,Countrywide,6,B. Preventing Deterioration,10286244
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,UNRWA,Countrywide,6,B. Preventing Deterioration,130883
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,UNRWA,Countrywide,6,B. Preventing Deterioration,485335
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,UNRWA,Countrywide,6,B. Preventing Deterioration,439906
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,UNRWA-UNICEF ,Countrywide,6,B. Preventing Deterioration,214510
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,UNRWA-UNICEF ,Countrywide,6,B. Preventing Deterioration,120000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,WVI,Bekaa,3,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.2 Safe and protective envirnonment,WVI,South,4,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,Akkar,1,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,Akkar,1,B. Preventing Deterioration,3250
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,Akkar,1,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,Beirut and Mt Lebanon,2,B. Preventing Deterioration,57385
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,Bekaa,3,B. Preventing Deterioration,30680
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,South,4,B. Preventing Deterioration,61288
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,ANERA,Tripoli+5,5,B. Preventing Deterioration,3770
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,FPSC,Akkar,1,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,FPSC,Beirut and Mt Lebanon,2,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,FPSC,Bekaa,3,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,FPSC,South,4,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,HWA,Beirut and Mt Lebanon,2,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,HWA,South,4,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,IOCC,Countrywide,6,B. Preventing Deterioration,4000000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,IRC,Akkar,1,B. Preventing Deterioration,139119
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,IRC,Bekaa,3,B. Preventing Deterioration,139119
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,MEHE,Countrywide,6,B. Preventing Deterioration,23360000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,NRC,Akkar,1,B. Preventing Deterioration,7500
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,NRC,Beirut and Mt Lebanon,2,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,NRC,Bekaa,3,B. Preventing Deterioration,275000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,NRC,Tripoli+5,5,B. Preventing Deterioration,5000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,RI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,17550
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,RI,Tripoli+5,5,B. Preventing Deterioration,5850
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,SCI,Akkar,1,B. Preventing Deterioration,20000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,SCI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,25000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,SCI,Bekaa,3,B. Preventing Deterioration,517000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,SCI,South,4,B. Preventing Deterioration,287500
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,SCI,Tripoli+5,5,B. Preventing Deterioration,2300
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Akkar,1,B. Preventing Deterioration,225000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Akkar,1,B. Preventing Deterioration,33000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Akkar,1,B. Preventing Deterioration,167400
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Akkar,1,B. Preventing Deterioration,500000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Akkar,1,B. Preventing Deterioration,92944
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,48000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,135841
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,500000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,375000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,257509
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Bekaa,3,B. Preventing Deterioration,500000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Bekaa,3,B. Preventing Deterioration,375000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Bekaa,3,B. Preventing Deterioration,250234
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Bekaa,3,B. Preventing Deterioration,297356
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Bekaa,3,B. Preventing Deterioration,44000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,South,4,B. Preventing Deterioration,33000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,South,4,B. Preventing Deterioration,500000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,South,4,B. Preventing Deterioration,300000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,South,4,B. Preventing Deterioration,185888
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,South,4,B. Preventing Deterioration,440528
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Tripoli+5,5,B. Preventing Deterioration,337004
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Tripoli+5,5,B. Preventing Deterioration,142991
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Tripoli+5,5,B. Preventing Deterioration,225000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Tripoli+5,5,B. Preventing Deterioration,500000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNHCR,Tripoli+5,5,B. Preventing Deterioration,50000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNICEF,Countrywide,6,B. Preventing Deterioration,13351500
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNRWA,Bekaa,3,B. Preventing Deterioration,526150
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,UNRWA,Countrywide,6,B. Preventing Deterioration,654416
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,WVI,Bekaa,3,B. Preventing Deterioration,125000
+Education,EDU -1. Right to education,EDU -1.3 Learning space improved,WVI,Countrywide,6,B. Preventing Deterioration,1770000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,FPSC,Akkar,1,B. Preventing Deterioration,12500
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,FPSC,Bekaa,3,B. Preventing Deterioration,12500
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,Mercy Corps,Bekaa,3,B. Preventing Deterioration,750000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,Mercy Corps,South,4,B. Preventing Deterioration,750000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,NRC,Akkar,1,B. Preventing Deterioration,30000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,NRC,Beirut and Mt Lebanon,2,B. Preventing Deterioration,75000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,NRC,Bekaa,3,B. Preventing Deterioration,350000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,NRC,Tripoli+5,5,B. Preventing Deterioration,30000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,RET,Beirut and Mt Lebanon,2,B. Preventing Deterioration,168000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,RET,Tripoli+5,5,B. Preventing Deterioration,72000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,SCI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,12500
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,SCI,South,4,B. Preventing Deterioration,13000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNESCO,Countrywide,6,B. Preventing Deterioration,500000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNESCO,Countrywide,6,B. Preventing Deterioration,100000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNESCO,Countrywide,6,B. Preventing Deterioration,355000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNESCO,Countrywide,6,B. Preventing Deterioration,600000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNHCR,Akkar,1,B. Preventing Deterioration,54600
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNHCR,Beirut and Mt Lebanon,2,B. Preventing Deterioration,79800
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNHCR,Bekaa,3,B. Preventing Deterioration,147000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNHCR,South,4,B. Preventing Deterioration,54600
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNHCR,Tripoli+5,5,B. Preventing Deterioration,168000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNICEF,Akkar,1,B. Preventing Deterioration,1769850
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNICEF,Beirut and Mt Lebanon,2,B. Preventing Deterioration,2831760
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNICEF,Bekaa,3,B. Preventing Deterioration,3303720
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNICEF,South,4,B. Preventing Deterioration,1533870
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,UNICEF,Tripoli+5,5,B. Preventing Deterioration,2359800
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,WVI,Beirut and Mt Lebanon,2,B. Preventing Deterioration,200000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,WVI,Bekaa,3,B. Preventing Deterioration,200000
+Education,EDU -1. Right to education,EDU -1.4 Adolescents access to education,WVI,South,4,B. Preventing Deterioration,200000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,British Council,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,509974.29
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,British Council,Bekaa,3,C. Capacity Building/Resilience,254987.14
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,British Council,South,4,C. Capacity Building/Resilience,254987.14
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,British Council,Tripoli+5,5,C. Capacity Building/Resilience,254987.14
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,HWA,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,5000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,HWA,South,4,C. Capacity Building/Resilience,5000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,MEHE,Countrywide,6,C. Capacity Building/Resilience,2000000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,NRC,Akkar,1,C. Capacity Building/Resilience,5000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,NRC,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,55000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,NRC,Bekaa,3,C. Capacity Building/Resilience,55000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,NRC,Tripoli+5,5,C. Capacity Building/Resilience,5000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,RI,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,29962
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,RI,Tripoli+5,5,C. Capacity Building/Resilience,14981
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,SCI,Akkar,1,C. Capacity Building/Resilience,10000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,SCI,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,55900
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,SCI,Bekaa,3,C. Capacity Building/Resilience,10000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,SCI,South,4,C. Capacity Building/Resilience,57000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,SCI,Tripoli+5,5,C. Capacity Building/Resilience,23600
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNESCO,Countrywide,6,C. Capacity Building/Resilience,200000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNHCR,Akkar,1,C. Capacity Building/Resilience,16000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNHCR,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,16000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNHCR,Bekaa,3,C. Capacity Building/Resilience,16000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNHCR,South,4,C. Capacity Building/Resilience,12000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNHCR,Tripoli+5,5,C. Capacity Building/Resilience,12000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNICEF,Countrywide,6,C. Capacity Building/Resilience,3092580
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNRWA,Countrywide,6,C. Capacity Building/Resilience,509353
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,UNRWA-UNICEF ,Countrywide,6,C. Capacity Building/Resilience,6000
+Education,EDU -2. Systems strenghtened,EDU -2.1 School teachers,WVI,Countrywide,6,C. Capacity Building/Resilience,500000
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,MEHE,Countrywide,6,C. Capacity Building/Resilience,16762000
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,NRC,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,5000
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,UNESCO,Countrywide,6,C. Capacity Building/Resilience,300000
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,UNESCO,Countrywide,6,C. Capacity Building/Resilience,100000
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,UNHCR,Countrywide,6,C. Capacity Building/Resilience,657388
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,UNHCR,Countrywide,6,C. Capacity Building/Resilience,50000
+Education,EDU -2. Systems strenghtened,EDU -2.2 Institutional support to MEHE,UNICEF,Countrywide,6,C. Capacity Building/Resilience,1879200
+Education,EDU -2. Systems strenghtened,EDU -2.3 Coordination and leadership,IRC,Akkar,1,C. Capacity Building/Resilience,2919
+Education,EDU -2. Systems strenghtened,EDU -2.3 Coordination and leadership,IRC,Bekaa,3,C. Capacity Building/Resilience,2919
+Education,EDU -2. Systems strenghtened,EDU -2.3 Coordination and leadership,NRC,Countrywide,6,C. Capacity Building/Resilience,20000
+Education,EDU -2. Systems strenghtened,EDU -2.3 Coordination and leadership,SCI,Beirut and Mt Lebanon,2,C. Capacity Building/Resilience,85000
