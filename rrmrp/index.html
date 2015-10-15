@@ -285,7 +285,7 @@
 							return 0;
 						}
 					})
-					.overlayGeoJson(regionsJSON.features, "name", function (d) { // there is no Region header in geojson file
+					.overlayGeoJson(regionsJSON.features, "regioncode", function (d) { // there is no Region header in geojson file
 						//return d.properties.rid;//
 						 return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
