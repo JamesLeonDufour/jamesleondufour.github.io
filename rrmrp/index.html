@@ -172,7 +172,7 @@
             // Init chart filters
             function initFilters() {
                 // Get hash values
-                var parseHash = /^#sector=([A-Za-z0-9,_\-\/\s]*)&area=([A-Za-z0-9,_\-\/\s]*)&map2=([A-Za-z0-9,_\-\/\s]*)&org=([A-Za-z0-9,_\-\/\s]*)$/;
+                var parseHash = /^#sector=([A-Za-z0-9,_\-\/\s]*)&area=([A-Za-z0-9,_\-\/\s]*)&org=([A-Za-z0-9,_\-\/\s]*)&map2=([A-Za-z0-9,_\-\/\s]*)$/;
                 var parsed = parseHash.exec(decodeURIComponent(location.hash));
                 function filter(chart, rank) {  // for instance chart = sector_chart and rank in URL hash = 1
                     // sector chart
@@ -290,7 +290,7 @@
 						 return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
 					})
-					.projection(d3.geo.mercator().center([46,12]).scale(1000))
+					.projection(d3.geo.mercator().center([48,12]).scale(1000))
 					.title(function (d) {
 						return "Geo-Filter: " + d.key;
 					})
