@@ -172,7 +172,7 @@
             // Init chart filters
             function initFilters() {
                 // Get hash values
-                var parseHash = /^#sector=([A-Za-z0-9,_\-\/\s]*)&objective=([A-Za-z0-9,_\-\/\s]*)&output=([A-Za-z0-9,_\-\/\s]*)&category=([A-Za-z0-9,_\-\/\s]*)&area=([A-Za-z0-9,_\-\/\s]*)&map2=([A-Za-z0-9,_\-\/\s]*)&org=([A-Za-z0-9,_\-\/\s]*)$/;
+                var parseHash = /^#sector=([A-Za-z0-9,_\-\/\s]*)&area=([A-Za-z0-9,_\-\/\s]*)&map2=([A-Za-z0-9,_\-\/\s]*)&org=([A-Za-z0-9,_\-\/\s]*)$/;
                 var parsed = parseHash.exec(decodeURIComponent(location.hash));
                 function filter(chart, rank) {  // for instance chart = sector_chart and rank in URL hash = 1
                     // sector chart
