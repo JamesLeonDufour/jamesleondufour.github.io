@@ -66,10 +66,24 @@
 						<h5><strong>By Sectors/Working Groups</strong></h5>
 					</div>
 				</div>
-				
+				<div class="row">
+					<div id="objective" class="col-xs-12 col-md-8" data-step="2" data-intro="Click on this row chart to filter by objective." data-position='right'>
+						<h5><strong>Top Three Objectives</strong> (by Appeal)</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div id="output" class="col-xs-12 col-md-8" data-step="3" data-intro="Click on this row chart to filter by output." data-position='right'>
+						<h5><strong>Top Three Outputs</strong> (by Appeal)</h5>
+					</div>
+				</div>
             </div>
 			<div class="col-md-4">
-								<div class="row">
+				<div class="row">
+					<div id="category" class="col-xs-12 col-md-8" data-step="4" data-intro="Click on this row chart to filter by prioritisation level." data-position='right'>
+						<h5><strong>Prioritisation</strong></h5>
+					</div>
+				</div>
+				<div class="row">
 					<div id="area" class="col-xs-12 col-md-8" data-step="5" data-intro="Click on this row chart to filter by area of operation." data-position='right'>
 						<h5><strong>By Area</strong> (by Appeal)</h5>
 					</div>
@@ -112,11 +126,11 @@
         //}
 		
         var sector_chart = dc.pieChart("#sector");
-       // var category_chart = dc.rowChart("#category");
+        var category_chart = dc.rowChart("#category");
         //var map_chart = dc.geoChoroplethChart("#map");
         var org_chart = dc.rowChart("#orgs");
-	//	var objective_chart = dc.rowChart("#objective");
-	//	var output_chart = dc.rowChart("#output");
+		var objective_chart = dc.rowChart("#objective");
+		var output_chart = dc.rowChart("#output");
 		var area_chart = dc.rowChart("#area");
         var map2_chart = dc.geoChoroplethChart("#map2");
 
@@ -128,27 +142,27 @@
 
             cf.partner = cf.dimension(function(d) { return d.Partner; });
             cf.sector = cf.dimension(function(d) { return d.Sector; });
-         //   cf.category = cf.dimension(function(d) { return d.Category; });
-		//	cf.objective = cf.dimension(function(d) { return d.Objective; });
-		//	cf.output = cf.dimension(function(d) { return d.Output; });
+            cf.category = cf.dimension(function(d) { return d.Category; });
+			cf.objective = cf.dimension(function(d) { return d.Objective; });
+			cf.output = cf.dimension(function(d) { return d.Output; });
 			cf.area = cf.dimension(function(d) { return d.Area; });
             cf.rcode = cf.dimension(function(d) { return d.RegionCODE; });
             cf.total = cf.dimension(function(d) { return d.Total; });
 
             var partner = cf.partner.group();
             var sector = cf.sector.group();
-        //    var category = cf.category.group();
-			//var objective = cf.objective.group();
-			//var output = cf.output.group();
+            var category = cf.category.group();
+			var objective = cf.objective.group();
+			var output = cf.output.group();
 			var area = cf.area.group();
             var rcode = cf.rcode.group();
             var all = cf.groupAll();
 
             var sectorByTotal = cf.sector.group().reduceSum(function (d) { return d.Total; });
             var partnerByTotal = cf.partner.group().reduceSum(function (d) { return d.Total; });
-         //   var categoryByTotal = cf.category.group().reduceSum(function (d) { return d.Total; });
-			//var objectiveByTotal = cf.objective.group().reduceSum(function (d) { return d.Total; });
-			//var outputByTotal = cf.output.group().reduceSum(function (d) { return d.Total; });
+            var categoryByTotal = cf.category.group().reduceSum(function (d) { return d.Total; });
+			var objectiveByTotal = cf.objective.group().reduceSum(function (d) { return d.Total; });
+			var outputByTotal = cf.output.group().reduceSum(function (d) { return d.Total; });
 			var areaByTotal = cf.area.group().reduceSum(function (d) { return d.Total; });
 			var rcodeByTotal = cf.rcode.group().reduceSum(function (d) { return d.Total; });
 
@@ -157,9 +171,9 @@
             function getFiltersValues() {
                 var filters = [
                     { name: 'sector', value: sector_chart.filters()},
-	//				{ name: 'objective', value: objective_chart.filters()},
-		//			{ name: 'output', value: output_chart.filters()},
-          //          { name: 'category', value: category_chart.filters()},
+					{ name: 'objective', value: objective_chart.filters()},
+					{ name: 'output', value: output_chart.filters()},
+                    { name: 'category', value: category_chart.filters()},
 					{ name: 'area', value: area_chart.filters()},
                     { name: 'map2', value: map2_chart.filters()},
 					{ name: 'org', value: org_chart.filters()}];
