@@ -266,8 +266,10 @@
             .group(all);
 
 		 /* Region map with ID rid */
-            d3.json("geojson/lebanon.geojson", function (regionsJSON) {
+        //    d3.json("geojson/lebanon.geojson", function (regionsJSON) {
               			
+						
+						d3.json("geojson/yem.geojson", function (regionsJSON) {
                  map2_chart.width(400).height(200)
 					.dimension(cf.rcode)
 					.group(rcodeByTotal)
@@ -280,7 +282,7 @@
 							return 0;
 						}
 					})
-					.overlayGeoJson(regionsJSON.features, "reg_name", function (d) { // there is no Region header in geojson file
+					.overlayGeoJson(regionsJSON.features, "gis_name", function (d) { // there is no Region header in geojson file
 						//return d.properties.rid;//
 						return d.properties.rid_str; // I changed rid to string in the geojson file as id in rocde2reg are retireved as text
 						
