@@ -1,0 +1,69 @@
+.text p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.image img {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.block-of-text p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.mixin p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* ====================================
+   Base styling, to make the demo more fancy
+   ==================================== */
+body {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background: #59488b;
+  padding: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+section {
+  display: block;
+  max-width: 500px;
+  background: #433669;
+  margin: 0 auto 1em;
+  height: 140px;
+  border-radius: .5em;
+  color: white;
+}
+section img, section p {
+  padding: 1em;
+}
