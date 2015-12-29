@@ -1,0 +1,21 @@
+
+(function(compId){var _=null,y=true,n=false,x10='break-word',x11='rgba(255,255,255,0.00)',x2='5.0.0',x17='dot_track_animCopy2',x25='15px',x1='5.0.1',g='image',x13='1',x20='dot_track_animCopy8',x23='2px',x='text',x21='dot_track_animCopy10',x29='solid',m='rect',x14='17',x31='rgba(255,79,51,1.00)',i='none',x3='5.0.1.386',p='px',x27='Ellipse2',x16='dot_track_anim',x26='50%',x9='Arial, Helvetica, sans-serif',l='normal',x15='auto',bg='background-color',e32='${Ellipse2}',x24='-1px',x30='ellipse',x12='-2',x8='16',x28='rgb(255, 148, 132)',x4='rgba(0,0,0,0)',x18='dot_track_animCopy4',x22='17px',x19='dot_track_animCopy6';var g6='map_PHL_track.svg',g5='PHL_countries.svg';var s7="Typhoon Haiyan's path";var im='images/',aud='media/',vid='media/',js='js/',fonts={},opts={'gAudioPreloadPreference':'auto','gVideoPreloadPreference':'auto'},resources=[],scripts=[],symbols={"stage":{v:x1,mv:x2,b:x3,stf:i,cg:i,rI:n,cn:{dom:[{id:'PHL_countries',t:g,r:['0','0','980px','800px','auto','auto'],f:[x4,im+g5,'0px','0px']},{id:'map_PHL_track',t:g,r:['0','-640px','980px','1440px','auto','auto'],o:'0.6',f:[x4,im+g6,'0px','0px']},{id:'dot_track',symbolName:'dot_track',t:m,r:['985px','576px','17','17','auto','auto']},{id:'Text',t:x,r:['674px','465px','178px','28px','auto','auto'],text:s7,n:[x9,[x8,p],"rgba(255,79,51,1.00)",l,i,"",x10,l],tf:[[],['10']]}],style:{'${Stage}':{isStage:true,r:['null','null','980px','800px','auto','auto'],overflow:'hidden',f:[x11]}}},tt:{d:8250,a:y,data:[]}},"dot_track":{v:x1,mv:x2,b:x3,stf:i,cg:i,rI:n,cn:{dom:[{r:[x12,x13,x14,x14,x15,x15],id:x16,sN:x16,t:m},{r:[x12,x13,x14,x14,x15,x15],id:x17,sN:x16,t:m},{r:[x12,x13,x14,x14,x15,x15],id:x18,sN:x16,t:m},{r:[x12,x13,x14,x14,x15,x15],id:x19,sN:x16,t:m},{r:[x12,x13,x14,x14,x15,x15],id:x20,sN:x16,t:m},{r:[x12,x13,x14,x14,x15,x15],id:x21,sN:x16,t:m}],style:{'${symbolSelector}':{r:[_,_,x22,x22]}}},tt:{d:8250,a:y,data:[["eid39","tr",0,function(e,d){this.eSA(e,d);},['stop','${dot_track_animCopy8}',[]]],["eid36","tr",0,function(e,d){this.eSA(e,d);},['stop','${dot_track_animCopy6}',[]]],["eid44","tr",0,function(e,d){this.eSA(e,d);},['stop','${dot_track_animCopy4}',[]]],["eid45","tr",0,function(e,d){this.eSA(e,d);},['stop','${dot_track_animCopy2}',[]]],["eid40","tr",0,function(e,d){this.eSA(e,d);},['stop','${dot_track_animCopy10}',[]]],["eid47","tr",750,function(e,d){this.eSA(e,d);},['play','${dot_track_animCopy2}',[]]],["eid49","tr",1500,function(e,d){this.eSA(e,d);},['play','${dot_track_animCopy4}',[]]],["eid51","tr",2250,function(e,d){this.eSA(e,d);},['play','${dot_track_animCopy6}',[]]],["eid53","tr",3000,function(e,d){this.eSA(e,d);},['play','${dot_track_animCopy8}',[]]],["eid55","tr",3750,function(e,d){this.eSA(e,d);},['play','${dot_track_animCopy10}',[]]]]}},"dot_track_anim":{v:x1,mv:x2,b:x3,stf:i,cg:i,rI:n,cn:{dom:[{r:[x23,x24,x25,x25,x15,x15],br:[x26,x26,x26,x26],id:x27,s:[1,x28,x29],t:x30,f:[x31]}],style:{'${symbolSelector}':{r:[_,_,x22,x22]}}},tt:{d:4500,a:y,data:[["eid33","location",0,4500,"linear",e32,[[9.63,9.64,0,0,0,0,0],[-160.38,-58.94,0,0,0,0,183.32],[-437.16,-107.01,0,0,0,0,464.24],[-570.37,-134.15,0,0,0,0,600.19],[-710.4,-170.43,0,0,0,0,744.84],[-806.34,-167.19,0,0,0,0,840.84],[-872.82,-230.03,0,0,0,0,932.32],[-996.78,-314.25,0,0,0,0,1082.18]]],["eid58",bg,2635,0,"linear",e32,'rgba(255,79,51,1.00)','rgba(255,79,51,1.00)']]}}};AdobeEdge.registerCompositionDefn(compId,symbols,fonts,scripts,resources,opts);})("EDGE-21153778");
+(function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;Edge.registerEventBinding(compId,function($){
+//Edge symbol: 'stage'
+(function(symbolName){})("stage");
+//Edge symbol end:'stage'
+
+//=========================================================
+
+//Edge symbol: 'dot_track'
+(function(symbolName){})("dot_track");
+//Edge symbol end:'dot_track'
+
+//=========================================================
+
+//Edge symbol: 'dot_track_anim'
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",4500,function(sym,e){this.play(0);});
+//Edge binding end
+})("dot_track_anim");
+//Edge symbol end:'dot_track_anim'
+})})(AdobeEdge.$,AdobeEdge,"EDGE-21153778");
