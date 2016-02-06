@@ -1,0 +1,31 @@
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://jamesleondufour.github.io/weather" resolutions="1x" timestamp="1454755133846">
+  <folder name="css">
+    <file name="site_global.css" crc="506498722"/>
+    <file name="index.css" crc="199220946" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index"/>
+    <file name="museutils.js" crc="183364071" ref="index"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="unhcr_logo_vertical_blue.png" crc="257094424" seo="true" ref="index"/>
+    <file name="u2117-8.png" crc="160955064" ref="index"/>
+    <file name="u2196-4.png" crc="4026716825" ref="index"/>
+    <file name="u2126-4.png" crc="528120988" ref="index"/>
+    <file name="image collée 942 x 78.jpg" crc="3981510282" seo="true" ref="index"/>
+    <file name="image collée 18 x 20.jpg" crc="4157283032" seo="true" ref="index"/>
+    <file name="image collée 146 x 2.jpg" crc="316951247" seo="true" ref="index"/>
+    <file name="image collée 18 x 202.jpg" crc="3887384693" seo="true" ref="index"/>
+    <file name="image collée 18 x 203.jpg" crc="407067687" seo="true" ref="index"/>
+    <file name="image collée 18 x 204.jpg" crc="481737342" seo="true" ref="index"/>
+    <file name="image collée 781 x 602.jpg" crc="4106527450" seo="true" ref="index"/>
+    <file name="u2106-4.png" crc="242349678" ref="index"/>
+    <file name="u2102-4.png" crc="4126396757" ref="index"/>
+    <file name="u2195-4.png" crc="4004180564" ref="index"/>
+    <file name="u2189-4.png" crc="4163420404" ref="index"/>
+    <file name="image collée 720 x 586.jpg" crc="4239724749" seo="true" ref="index"/>
+    <file name="image collée 64 x 416.jpg" crc="3941282767" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="526320839" seo="true" mt="1454755118984" redirect="true"/>
+</manifest>
