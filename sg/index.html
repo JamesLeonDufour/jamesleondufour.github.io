@@ -342,7 +342,7 @@
           <div id="logo-container"><img id="logo" height="50" src="logowocsmall.png" width="216" alt="Logo"></div>
 <h1>Sites in Greece</h1>
 
-            <h6>Map created by the<a href="mailto:hqwoc@unhcr.org">Winter Operations Cell</a></h6>
+            <h6>Map created by the <a href="mailto:hqwoc@unhcr.org">Winter Operations Cell</a></h6>
         </div>
         <p>This interactive map collates available information from different data sources about sites hostings
             refugees. <a href=''>Lorem ipsum dolor sit ame</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -389,7 +389,7 @@
             cartodb.createVis('map', 'https://unhcrinnovation.cartodb.com/api/v2/viz/5bcdabb8-e14f-11e5-a2e0-0ecd1babdde5/viz.json', {
                         shareable: false,
                         title: false,
-                        description: false,
+                        description: true,
                         search: false,
                         infowindow: false,
                         tiles_loader: true,
@@ -410,18 +410,18 @@
                         }
 
                         getRecordsCount();
+// layer 0 is the base layer, layer 1 is cartodb layer
+                    layers[1].setInteraction(true);
 
-                        layers[1].getSubLayer(1).setInteraction(true);
-                        layers[1].getSubLayer(1).setInteractivity("cartodb_id,the_geom,capacity,comments,country,latitude,location_name,longitude,m_i,pcode,management,protection,nfi,shelter,health,wash,pop_20160303,last_update");
+                        layers[1].setInteractivity("cartodb_id,the_geom,capacity,comments,country,latitude,location_name,longitude,m_i,pcode,management,protection,nfi,shelter,health,wash,pop_20160303,last_update");
 
-                        layers[1].getSubLayer(1).on('featureClick', function (e, latlng, pos, data) {
-                            if (typeof data.location_name != 'undefined') {
-                                $("#custom-infowindow").html(buildInfoWindow(data)).show();
-                                $("#close-window").show();
-                            }
-                        });
+                       layers[1].on('featureClick', function (e, latlng, pos, data) {
+                        $("#custom-infowindow").html(buildInfoWindow(data)).show();
+                        $("#close-window").show();
+                    });
 
-                        addCursorInteraction(layers[1].getSubLayer(1));
+
+                        addCursorInteraction(layers[1]);
                     })
                     .error(function (err) {
                         console.log(err);
