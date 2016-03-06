@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css"/>
-	<link rel="stylesheet" href="woc.css"/>
+	<link rel="stylesheet" href="woc2.css"/>
     <link href="http://www.unhcr.org/favicon.ico" rel="icon" type="image/x-icon">
 
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
@@ -44,26 +44,12 @@
             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum</p>
-			
+		
 			<br>
-			<br><br><br>
 			 <div id="logo-container"><img id="logo" height="40" src="unhcr.png" alt="Logo"></div>
  <h4>Powered by the <a href="mailto:hqwoc@unhcr.org">Winter Operations Cell</a></h4>
         
-		<div class='cartodb-legend bubble'>	
-<div class="legend-title">Site Capacity</div>
-<ul>
-	<li>
-	150
-	</li>
-	<li class="graph" style="background: rgb(184, 22, 9);">
-		<div class="bubbles"></div>
-	</li>
-	<li>
-	2400
-	</li>
-</ul>
-</div>
+		
 		<a href="#" id="close-window">X</a>
         <div id="custom-infowindow">
         </div><!--end infowindow template-->
@@ -91,7 +77,7 @@
         }
 
         function main() {
-            cartodb.createVis('map', 'https://unhcrinnovation.cartodb.com/api/v2/viz/5bcdabb8-e14f-11e5-a2e0-0ecd1babdde5/viz.json', {
+            cartodb.createVis('map', 'https://unhcrinnovation.cartodb.com/api/v2/viz/6c4e7296-e38f-11e5-af81-0e3ff518bd15/viz.json', {
                         shareable: false,
                         title: false,
                         description: true,
@@ -106,10 +92,10 @@
 
                         // get the number of items
                         function getRecordsCount() {
-                            $.getJSON('https://unhcrinnovation.cartodb.com/api/v2/sql/?q=SELECT count(*) FROM sites_greece_gdrive_cartodb', function (data) {
+                            $.getJSON('https://unhcrinnovation.cartodb.com/api/v2/sql/?q=SELECT count(*) FROM profile_greece_gdrive_cartodb', function (data) {
                                 $.each(data.rows, function () {
                                     var the_count = data.rows[0]["count"];
-                                    $("#thecount").val('Number of sites: ' + the_count);
+                                    $("#thecount").val('Total number of sites: ' + the_count + '  -Click for more info-');
                                 });
                             });
                         }
@@ -118,7 +104,7 @@
 // layer 0 is the base layer, layer 1 is cartodb layer
                     layers[1].setInteraction(true);
 
-                        layers[1].setInteractivity("cartodb_id,the_geom,capacity,comments,country,latitude,location_name,longitude,m_i,pcode,management,protection,nfi,shelter,health,wash,pop_20160303,last_update");
+                        layers[1].setInteractivity("cartodb_id,the_geom,police_security_guard_patrols_available_in_site_yes_no,information_reception_desk_operational,medical_services_available_yes_no,regular_cleaning_of_wash_facilities_ensured_yes_no,last_update,__of_outreach_and_community_workers,people_at_site,future_capacity,capacity,comments,infant_feeding_in_place_yes_no,three_meals_per_day_available_yes_no,hot_meals_in_place_yes_no,restauring_family_links_available_yes_no,access_managed_by_police_yes_no,__of_interpreters_available,cfs_operated_yes_no,ambulance_available_24_7_yes_no,garbage_disposel_waste_management_organized_yes_no,hygiene_promotion_done_yes_no,facilities_separated_men_women_yes_no,__of_showers,__of_latines,shelter_winterized_fully_partially_no,__of_rub_halls,__of_rhus_prefabs,__of_tents,unhcr_focal_point,gvt_focal_point,population_profile,site_name,location,m_i,country,pcode,longitude,latitude");
 
                        layers[1].on('featureClick', function (e, latlng, pos, data) {
                         $("#custom-infowindow").html(buildInfoWindow(data)).show();
@@ -150,23 +136,56 @@
                     '           </div>' +
                     '       </div>' +
                     '       <div class="content">' +
-                    ' 	        <h2 class="location">Site Name:<br><span class="main_location">' + data.location_name + '</span></>' +
+                    ' 	        <h2 class="location">Site Name:<br><span class="main_location">' + data.site_name + '</span></>' +
 					getData('country', data.country) +
-					getData(data.m_i) +
-					getData('capacity', data.capacity) +
-					 getData('Population', data.pop_20160303) +
-					
-                    getData('Camp Management', data.management) +
-					getData('protection', data.protection) +
-					getData('NFI', data.nfi) +
-					getData('Shelter', data.shelter) +
-					getData('Health', data.health) +
-					getData('WASH', data.WASH) +
-                             
-                    getData('comments', data.comments) +
-                    getData('longitude', data.longitude) +
-                    getData('latitude', data.latitude) +
-					getData('Updated', data.last_update) +
+					getData('People at site	', data.	people_at_site	) +
+			getData('	Capacity	', data.	capacity	) +
+			getData('	Future capacity	', data.	future_capacity	) +
+			getData('	population profile	', data.	population_profile	) +
+			getData('	unhcr focal point	', data.	unhcr_focal_point	) +
+			getData('	Gov focal point	', data.	gvt_focal_point	) +
+			getData('	police/security/guard/patrols available	', data.	police_security_guard_patrols_available_in_site_yes_no	) +
+			getData('	information reception desk operational	', data.	information_reception_desk_operational	) +
+			  			
+getData('	# of rub_halls	', data.	__of_rub_halls	) +
+getData('	# of rhus/prefabs	', data.	__of_rhus_prefabs	) +
+getData('	# of tents	', data.	__of_tents	) +
+getData('	shelter winterized	', data.	shelter_winterized_fully_partially_no	) +
+
+
+
+getData('	# of showers	', data.	__of_showers	) +
+getData('	# of latrines	', data.	__of_latines	) +
+getData('	facilities separated for men/women	', data.	facilities_separated_men_women_yes_no	) +
+getData('	Waste management', data.	garbage_disposel_waste_management_organized_yes_no	) +
+getData('	hygiene promotion', data.	hygiene_promotion_done_yes_no	) +
+
+
+
+
+getData('	Medical services available	', data.	medical_services_available_yes_no	) +
+getData('	ambulance available 24/7', data.	ambulance_available_24_7_yes_no	) +
+getData('	Regular cleaning of wash facilities ', data.	regular_cleaning_of_wash_facilities_ensured_yes_no	) +
+
+getData('	# of outreach and community workers	', data.	__of_outreach_and_community_workers	) +
+
+
+getData('	infant feeding in place	', data.	infant_feeding_in_place_yes_no	) +
+getData('	3 meals/day available', data.	three_meals_per_day_available_yes_no	) +
+getData('	hot meals in place', data.	hot_meals_in_place_yes_no	) +
+getData('	restauring family links available	', data.	restauring_family_links_available_yes_no	) +
+getData('	access managed by police	', data.	access_managed_by_police_yes_no	) +
+getData('	# of interpreters available	', data.	__of_interpreters_available	) +
+getData('	cfs operated	', data.	cfs_operated_yes_no	) +
+
+
+
+getData('	comments	', data.	comments	) +
+
+getData('	longitude	', data.	longitude	) +
+getData('	latitude	', data.	latitude	) +
+getData('	last_update	', data.	last_update	) +
+
                     '           <p class="report" style="display: block;"><span class="viewreport download_button" tabindex="0"><a href="#" target="_blank">Download (soon)</a></span></p>' +
 					'<div class="viewassessment" tabindex="0"><a href="#" target="_blank">Cool blue button</div>' +
 					                    '       </div>' +
