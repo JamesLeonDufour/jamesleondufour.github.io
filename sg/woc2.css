@@ -160,7 +160,7 @@
 
         #count-window {
             position: absolute;
-            width: 330px;
+            width: 360px;
             height: 30px;
             background-color: #FFFFFF;
             left: 70px;
@@ -178,7 +178,7 @@
             box-sizing: border-box;
             color: #0072bc;
             background: none;
-			font-weight: bold;
+			
             font-size: 14px;
             line-height: 16px;
             vertical-align: middle;

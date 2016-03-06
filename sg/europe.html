@@ -29,7 +29,7 @@
         
         <div class="context subheader">
          
-<h1>Sites in Greece</h1>
+<h1>Sites in Europe</h1>
 <br>
            
         </div>
@@ -62,37 +62,37 @@
             var hovers = [];
 
             layer.bind('featureOver', function (e, latlon, pxPos, data, layer) {
-                hovers[layer] = 1;
+                hovers[layer] = 5;
                 if (_.any(hovers)) {
                     $('img.leaflet-tile').css('cursor', 'pointer');
                 }
             });
-
-            layer.bind('featureOut', function (m, layer) {
+    layer.bind('featureOut', function (m, layer) {
                 hovers[layer] = 0;
                 if (!_.any(hovers)) {
                     $('img.leaflet-tile').css('cursor', 'auto');
                 }
             });
+			
         }
 
         function main() {
-            cartodb.createVis('map', 'https://unhcrinnovation.cartodb.com/api/v2/viz/6c4e7296-e38f-11e5-af81-0e3ff518bd15/viz.json', {
+            cartodb.createVis('map', 'https://unhcrinnovation.cartodb.com/api/v2/viz/909727a2-e3c0-11e5-8d26-0ecfd53eb7d3/viz.json', {
                         shareable: false,
                         title: false,
                         description: true,
                         search: false,
                         infowindow: false,
                         tiles_loader: true,
-                        center_lat: 39,
+                        center_lat: 42,
                         center_lon: 26,
-                        zoom: 7
+                        zoom: 6
                     })
                     .done(function (vis, layers) {
 
                         // get the number of items
                         function getRecordsCount() {
-                            $.getJSON('https://unhcrinnovation.cartodb.com/api/v2/sql/?q=SELECT count(*) FROM profile_greece_gdrive_cartodb', function (data) {
+                            $.getJSON('https://unhcrinnovation.cartodb.com/api/v2/sql/?q=SELECT count(*) FROM profile_europe_gdrive_cartodb', function (data) {
                                 $.each(data.rows, function () {
                                     var the_count = data.rows[0]["count"];
                                     $("#thecount").val('Total number of sites: ' + the_count + '  -Click on a site for more info-');
@@ -102,17 +102,18 @@
 
                         getRecordsCount();
 // layer 0 is the base layer, layer 1 is cartodb layer
-                    layers[1].setInteraction(true);
+                   layers[1].getSubLayer(4).setInteraction(true);
+                    layers[1].getSubLayer(4).setInteractivity("cartodb_id,the_geom,police_security_guard_patrols_available_in_site_yes_no,information_reception_desk_operational,medical_services_available_yes_no,regular_cleaning_of_wash_facilities_ensured_yes_no,last_update,__of_outreach_and_community_workers,people_at_site,future_capacity,capacity,comments,infant_feeding_in_place_yes_no,three_meals_per_day_available_yes_no,hot_meals_in_place_yes_no,restauring_family_links_available_yes_no,access_managed_by_police_yes_no,__of_interpreters_available,cfs_operated_yes_no,ambulance_available_24_7_yes_no,garbage_disposel_waste_management_organized_yes_no,hygiene_promotion_done_yes_no,facilities_separated_men_women_yes_no,__of_showers,__of_latines,shelter_winterized_fully_partially_no,__of_rub_halls,__of_rhus_prefabs,__of_tents,unhcr_focal_point,gvt_focal_point,population_profile,site_name,location,m_i,country,pcode,longitude,latitude");
 
-                        layers[1].setInteractivity("cartodb_id,the_geom,police_security_guard_patrols_available_in_site_yes_no,information_reception_desk_operational,medical_services_available_yes_no,regular_cleaning_of_wash_facilities_ensured_yes_no,last_update,__of_outreach_and_community_workers,people_at_site,future_capacity,capacity,comments,infant_feeding_in_place_yes_no,three_meals_per_day_available_yes_no,hot_meals_in_place_yes_no,restauring_family_links_available_yes_no,access_managed_by_police_yes_no,__of_interpreters_available,cfs_operated_yes_no,ambulance_available_24_7_yes_no,garbage_disposel_waste_management_organized_yes_no,hygiene_promotion_done_yes_no,facilities_separated_men_women_yes_no,__of_showers,__of_latines,shelter_winterized_fully_partially_no,__of_rub_halls,__of_rhus_prefabs,__of_tents,unhcr_focal_point,gvt_focal_point,population_profile,site_name,location,m_i,country,pcode,longitude,latitude");
-
-                       layers[1].on('featureClick', function (e, latlng, pos, data) {
-                        $("#custom-infowindow").html(buildInfoWindow(data)).show();
-                        $("#close-window").show();
+                       layers[1].getSubLayer(4).on('featureClick', function (e, latlng, pos, data) {
+                        if (typeof data.site_name != 'undefined') {
+                                $("#custom-infowindow").html(buildInfoWindow(data)).show();
+                                $("#close-window").show();
+                            }
                     });
 
 
-                        addCursorInteraction(layers[1]);
+                        addCursorInteraction(layers[1].getSubLayer(4));
                     })
                     .error(function (err) {
                         console.log(err);
@@ -200,15 +201,6 @@ getData('	last_update	', data.	last_update	) +
             '<span class="clusters_content">' + value + '</span></p>';
         }
     </script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-55286670-5', 'auto');
-  ga('send', 'pageview');
-
-</script>
+	
 </body>
 </html>
