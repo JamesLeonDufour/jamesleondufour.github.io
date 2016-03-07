@@ -19,6 +19,7 @@
 
 <div id="count-window">
     <input id="thecount" disabled/>
+	<input id="thecount2" disabled/>
 </div>
 
 <div id="map"></div>
@@ -96,6 +97,7 @@
                                 $.each(data.rows, function () {
                                     var the_count = data.rows[0]["count"];
                                     $("#thecount").val('Total number of sites: ' + the_count + '  -Click on a site for more info-');
+									
                                 });
                             });
                         }
@@ -138,7 +140,7 @@
                     '       <div class="content">' +
                     ' 	        <h2 class="location">Site Name:<br><span class="main_location">' + data.site_name + '</span></>' +
 					getData('country', data.country) +
-					getData('People at site	', data.	people_at_site	) +
+					getData('# of people on site (source government)	', data.	people_at_site	) +
 			getData('	Capacity	', data.	capacity	) +
 			getData('	Future capacity	', data.	future_capacity	) +
 			getData('	population profile	', data.	population_profile	) +
