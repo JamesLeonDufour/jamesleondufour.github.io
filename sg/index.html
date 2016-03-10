@@ -1,216 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>UNHCR</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "unhcrwoc") {
+alert('You Got it Right!');
+window.open('index2.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect you can contact hqwoc@unhcr.org','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+	
 
-    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css"/>
-	<link rel="stylesheet" href="woc2.css"/>
-    <link href="http://www.unhcr.org/favicon.ico" rel="icon" type="image/x-icon">
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
 
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+	 </br>	
 
-  
-
-</head>
-<body>
-
-<div id="count-window">
-    <input id="thecount" disabled/>
-	<input id="thecount2" disabled/>
-</div>
-
-<div id="map"></div>
-
-<!--start infowindow template-->
-<div id="filters">
-    <div class="wrapper">
+	  <p>Greece sites on the mainland</a></p>
+	 <div id="logo-container"><img id="logo" height="30" src="unhcr.png" alt="Logo"></div>
+		 
+ <p>Powered by the <a href="mailto:hqwoc@unhcr.org">Winter Operations Cell</a></p>
         
-        <div class="context subheader">
-         
-<h1>Greece sites on the mainland</h1>
- </div>
-             <h6>Description</h6>
-       
-        <p>This interactive map compiles basic information on the existing sites on the mainland; the information is updated on a regular basis; however, changes might occur in between reporting periods.</p>
-		<br>
-		<p>The source for information on the number of people currently residing is the Government. </p>
-		<br>
-		<p> For questions, please contact: 
-		
-		<p><A HREF="mailto:papachri@unhcr.org">Ioannis Papachristodoulou</A> UNHCR.</p>
 
-        <!--Copy and paste the div below for creating content blocks-->
-      
-       <br>
-		
-			
-			 <div id="logo-container"><img id="logo" height="30" src="unhcr.png" alt="Logo"></div>
- <h4>Powered by the <a href="mailto:hqwoc@unhcr.org">Winter Operations Cell</a></h4>
-        
-		
-		<a href="#" id="close-window">X</a>
-        <div id="custom-infowindow">
-        </div><!--end infowindow template-->
-    </div>
-
-
-    <script>
-        // changing the cursor when hover on features http://bl.ocks.org/javisantana/6102814
-        function addCursorInteraction(layer) {
-            var hovers = [];
-
-            layer.bind('featureOver', function (e, latlon, pxPos, data, layer) {
-                hovers[layer] = 1;
-                if (_.any(hovers)) {
-                    $('img.leaflet-tile').css('cursor', 'pointer');
-                }
-            });
-
-            layer.bind('featureOut', function (m, layer) {
-                hovers[layer] = 0;
-                if (!_.any(hovers)) {
-                    $('img.leaflet-tile').css('cursor', 'auto');
-                }
-            });
-        }
-
-        function main() {
-            cartodb.createVis('map', 'https://unhcrinnovation.cartodb.com/api/v2/viz/6c4e7296-e38f-11e5-af81-0e3ff518bd15/viz.json', {
-                        shareable: false,
-                        title: false,
-                        description: true,
-                        search: false,
-                        infowindow: false,
-                        tiles_loader: true,
-                        center_lat: 39,
-                        center_lon: 25,
-                        zoom: 7
-                    })
-                    .done(function (vis, layers) {
-
-                        // get the number of items
-                        function getRecordsCount() {
-                            $.getJSON('https://unhcrinnovation.cartodb.com/api/v2/sql/?q=SELECT count(*) FROM profile_greece_gdrive_cartodb', function (data) {
-                                $.each(data.rows, function () {
-                                    var the_count = data.rows[0]["count"];
-                                    $("#thecount").val('Total number of sites: ' + the_count + '  -Click on a site for more info-');
-									
-                                });
-                            });
-                        }
-
-                        getRecordsCount();
-// layer 0 is the base layer, layer 1 is cartodb layer
-                    layers[1].setInteraction(true);
-
-                        layers[1].setInteractivity("cartodb_id,the_geom,police_security_guard_patrols_available_in_site_yes_no,information_reception_desk_operational,medical_services_available_yes_no,regular_cleaning_of_wash_facilities_ensured_yes_no,last_update,__of_outreach_and_community_workers,people_at_site,future_capacity,capacity,comments,infant_feeding_in_place_yes_no,three_meals_per_day_available_yes_no,hot_meals_in_place_yes_no,restauring_family_links_available_yes_no,access_managed_by_police_yes_no,__of_interpreters_available,cfs_operated_yes_no,ambulance_available_24_7_yes_no,garbage_disposel_waste_management_organized_yes_no,hygiene_promotion_done_yes_no,facilities_separated_men_women_yes_no,__of_showers,__of_latines,shelter_winterized_fully_partially_no,__of_rub_halls,__of_rhus_prefabs,__of_tents,unhcr_focal_point,gvt_focal_point,population_profile,site_name,location,m_i,country,pcode,longitude,latitude");
-
-                       layers[1].on('featureClick', function (e, latlng, pos, data) {
-                        $("#custom-infowindow").html(buildInfoWindow(data)).show();
-                        $("#close-window").show();
-                    });
-
-
-                        addCursorInteraction(layers[1]);
-                    })
-                    .error(function (err) {
-                        console.log(err);
-                    });
-
-            $(document).on('click', '#close-window', function () {
-                $("#custom-infowindow").html('').css({'display': 'none'});
-                $("#close-window").css({'display': 'none'});
-            });
-        }
-
-        window.onload = main;
-
-        function buildInfoWindow(data) {
-            return '' +
-                    '<div class="wrapper">' +
-                    '   <div class="item">' +
-                    '       <div class="header">' +
-                    '           <div class="infobar">' +
-                    '               <span class="idnumber"># PCODE ' + data.pcode + '</span>' +
-                    '           </div>' +
-                    '       </div>' +
-                    '       <div class="content">' +
-                    ' 	        <h2 class="location">Site Name:<br><span class="main_location">' + data.site_name + '</span></>' +
-					getData('country', data.country) +
-					getData('# of people on site (source government)	', data.	people_at_site	) +
-			getData('	Capacity	', data.	capacity	) +
-			getData('	Future capacity	', data.	future_capacity	) +
-			getData('	population profile	', data.	population_profile	) +
-			getData('	unhcr focal point	', data.	unhcr_focal_point	) +
-			getData('	Gov focal point	', data.	gvt_focal_point	) +
-			getData('	police/security/guard/patrols available	', data.	police_security_guard_patrols_available_in_site_yes_no	) +
-			getData('	information reception desk operational	', data.	information_reception_desk_operational	) +
-			  			
-getData('	# of rub_halls	', data.	__of_rub_halls	) +
-getData('	# of rhus/prefabs	', data.	__of_rhus_prefabs	) +
-getData('	# of tents	', data.	__of_tents	) +
-getData('	shelter winterized	', data.	shelter_winterized_fully_partially_no	) +
-
-
-
-getData('	# of showers	', data.	__of_showers	) +
-getData('	# of latrines	', data.	__of_latines	) +
-getData('	facilities separated for men/women	', data.	facilities_separated_men_women_yes_no	) +
-getData('	Waste management', data.	garbage_disposel_waste_management_organized_yes_no	) +
-getData('	hygiene promotion', data.	hygiene_promotion_done_yes_no	) +
-
-
-
-
-getData('	Medical services available	', data.	medical_services_available_yes_no	) +
-getData('	ambulance available 24/7', data.	ambulance_available_24_7_yes_no	) +
-getData('	Regular cleaning of wash facilities ', data.	regular_cleaning_of_wash_facilities_ensured_yes_no	) +
-
-getData('	# of outreach and community workers	', data.	__of_outreach_and_community_workers	) +
-
-
-getData('	infant feeding in place	', data.	infant_feeding_in_place_yes_no	) +
-getData('	3 meals/day available', data.	three_meals_per_day_available_yes_no	) +
-getData('	hot meals in place', data.	hot_meals_in_place_yes_no	) +
-getData('	restauring family links available	', data.	restauring_family_links_available_yes_no	) +
-getData('	access managed by police	', data.	access_managed_by_police_yes_no	) +
-getData('	# of interpreters available	', data.	__of_interpreters_available	) +
-getData('	cfs operated	', data.	cfs_operated_yes_no	) +
-
-
-
-getData('	comments	', data.	comments	) +
-
-getData('	longitude	', data.	longitude	) +
-getData('	latitude	', data.	latitude	) +
-getData('	last_update	', data.	last_update	) +
-
-                    '           <p class="report" style="display: block;"><span class="viewreport download_button" tabindex="0"><a href="#" target="_blank">Download (soon)</a></span></p>' +
-			//		'<div class="viewassessment" tabindex="0"><a href="#" target="_blank">Cool blue button</div>' +
-					                    '       </div>' +
-                    '   </div>' +
-                    '</div>' +
-                    '';
-
-        }
-        function getData(name, value) {
-            return typeof value == 'undefined' || value === null || value == '' ? '' :
-            '<p class="clusters">' + name + ':<br>' +
-            '<span class="clusters_content">' + value + '</span></p>';
-        }
-    </script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-55286670-5', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</body>
-</html>
+</FORM>
+</CENTER>
