@@ -1,0 +1,14 @@
+{
+    "https://docs.google.com/spreadsheets/d/19Ww4Npgx-q8yDbGkRdfFCE6Q8UhrMSNYYzJAVOlmWW0/pubhtml":"",
+    "https://script.google.com/macros/s/AKfycbwmXh5Xltb44ciWG3B96njlMmoHH3QhHlXxYdcdZfYDVNwzwozb/exec?par=": "",
+    "base_layers": [
+        {
+            "name": "Open Street Map",
+            "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+        },
+        {
+            "name": "Stamen",
+            "url": "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png"
+        }
+    ]
+}
