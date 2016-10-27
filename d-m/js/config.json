@@ -3,6 +3,18 @@
     "script_url": "https://script.google.com/macros/s/AKfycbzyVH-_-kw1iUP1arJ1IYb8mjBP_V48W4bZoruUeOV5bsbz_gg/exec?par=",
     "base_layers": [
         {
+            "name": "Cartodb",
+            "url": "http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+        },
+		{
+            "name": "Open Street Map",
+            "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+        },
+		{
+            "name": "Open Street Map",
+            "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+        },
+		{
             "name": "Open Street Map",
             "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
         },
