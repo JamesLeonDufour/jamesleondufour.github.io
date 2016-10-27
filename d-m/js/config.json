@@ -5,10 +5,6 @@
         {
             "name": "Open Street Map",
             "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png"
-        },
-        {
-            "name": "Stamen",
-            "url": "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png"
         }
     ]
 }
