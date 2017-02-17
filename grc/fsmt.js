@@ -246,7 +246,7 @@ jQuery(document).ready(function() {
 		})
 	});
 	
-})
+
 });	
 	
 
