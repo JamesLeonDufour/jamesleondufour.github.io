@@ -1,6 +1,28 @@
 
+jQuery(document).ready(function() {
 	
-	d3.csv("fmst.csv", function(data) {
+	$('.typeahead').hide();
+	$('#left_of_map').hide();
+	
+	
+	$.ajax({
+	   url:config.url+"#dataset-resources",
+	   type:'GET',
+	   success: function(data){
+		   var u = $(data).find('.hdx-btn-group').html();
+		   u = u.substring(u.indexOf("Preview") + 1);
+		   u = u.substring(u.indexOf('<a href=') + 8);
+		   u = u.substring(1);
+		   u = u.substring(0, u.indexOf('"'));
+		   var begin = u.substring(0,5);
+		   if(begin == "/data"){
+				u = "https://data.humdata.org"+u;
+			}
+			else{}
+			
+	
+	
+	d3.csv(u, function(data) {
 		
 		d3.csv("fields.csv", function(fields) {
 			
