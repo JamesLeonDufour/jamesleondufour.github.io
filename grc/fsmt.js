@@ -1,7 +1,11 @@
 
 jQuery(document).ready(function() {
 	
-
+	$('.typeahead').hide();
+	$('#left_of_map').hide();
+	
+	
+	
 	
 	d3.csv("fmst.csv", function(data) {
 		
