@@ -1,4 +1,7 @@
 
+jQuery(document).ready(function() {
+	
+
 	
 	d3.csv("fmst.csv", function(data) {
 		
