@@ -5,7 +5,7 @@ $('.typeahead').hide();
 	$('#left_of_map').hide();
 	
 	
-	d3.csv("http://jamesleondufour.github.io/grc/fmst.csv", function(data) {
+	d3.csv("fsmt.csv", function(data) {
 		
 		d3.csv("fields.csv", function(fields) {
 			
