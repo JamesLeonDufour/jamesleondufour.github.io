@@ -4,9 +4,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <!-- load jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/data.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
@@ -18,19 +16,17 @@
 <body>
 <div id="container" style="width:100%; height:400px;"></div>
 <script>
-  $(function() {
-  Highcharts.chart('container',{
-    chart: {
-      type: 'line'
-    },
-    title: {
-      text: 'Highcharts line chart from Google Sheets'
-    },
-    data: {
-          googleSpreadsheetWorksheet: 'https://docs.google.com/spreadsheets/d/1kj6ZIbrHK3SZ2kTEt8v8VbdOYhRLSBHa4WivTOqJ2Eg/public/basic'
+  Highcharts.chart('container', {
 
-   }
-  });
+  
+    data: {
+        googleSpreadsheetKey: '1kj6ZIbrHK3SZ2kTEt8v8VbdOYhRLSBHa4WivTOqJ2Eg'
+    }
+
+
+
+
+
 });
 
   </script>
