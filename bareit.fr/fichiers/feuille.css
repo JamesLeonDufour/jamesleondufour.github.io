@@ -1,0 +1,32 @@
+@charset "iso-8859-1";
+/* auteur: Seldo/Julien */
+/* Date de création: 16/11/01 */
+
+BODY {
+scrollbar-face-color: #A0D0FF;
+scrollbar-shadow-color: #000000;
+scrollbar-highlight-color: #E7F3FF;
+scrollbar-3dlight-color: #E7F3FF;
+scrollbar-darkshadow-color: #89B1DA;
+scrollbar-track-color: #A0D0FF;
+scrollbar-arrow-color: #000000;
+}
+
+.texte {  font-family: Verdana; font-size: 10px; color: #000000; text-decoration: none}
+
+.texteb {  font-family: Verdana; font-size: 9px; color: #000000; text-decoration: none}
+
+
+.texteclaire {  font-family: Verdana; font-size: 10px; color: #FFFFFF; text-decoration: none}
+.texteclaire2 {  font-family: Verdana; font-size: 10px; color: #FFFFFF; text-decoration: underline}
+
+
+.input
+{
+color:#FFFFFF;
+border: solid 1px #000000;
+background-color:#1191D1;
+font-size:10px;
+font-weight: none;
+font-family: Verdana;
+}
