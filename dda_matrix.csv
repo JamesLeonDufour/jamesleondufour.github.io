@@ -1,21 +1,21 @@
-P_country,0_17_male,0_17_female,18_1_male,18_1_female
-Kenya,120,130,45,50
-Uganda,95,100,39,43
-Tanzania,103,110,42,46
-Ethiopia,88,92,38,40
-Rwanda,60,65,28,30
-Burundi,45,49,20,23
-South Sudan,77,81,25,27
-Somalia,66,70,24,26
-DR Congo,82,85,29,31
-Nigeria,150,160,58,62
-Ghana,99,104,40,44
-Senegal,80,85,34,36
-Mali,70,75,31,33
-Chad,61,63,27,29
-Niger,55,58,22,25
-Cameroon,90,93,36,38
-Benin,74,77,30,32
-Togo,64,66,26,28
-Sierra Leone,43,46,18,19
-Liberia,50,54,20,22
+P_country	male17	female17	male18	female18
+Kenya	120	130	45	50
+Uganda	95	100	39	43
+Tanzania	103	110	42	46
+Ethiopia	88	92	38	40
+Rwanda	60	65	28	30
+Burundi	45	49	20	23
+South Sudan	77	81	25	27
+Somalia	66	70	24	26
+DR Congo	82	85	29	31
+Nigeria	150	160	58	62
+Ghana	99	104	40	44
+Senegal	80	85	34	36
+Mali	70	75	31	33
+Chad	61	63	27	29
+Niger	55	58	22	25
+Cameroon	90	93	36	38
+Benin	74	77	30	32
+Togo	64	66	26	28
+Sierra Leone	43	46	18	19
+Liberia	50	54	20	22
